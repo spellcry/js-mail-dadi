@@ -3,7 +3,8 @@ const max = Math.floor(6);
 
 const chiVinceElement = document.querySelector('.chi-vince');
 
-let playerResultElement = null, computerResultElement = null;
+let playerResultElement = document.querySelector('.player__result');
+let computerResultElement = document.querySelector('.computer__result');
 
 if ( playerResultElement == null && computerResultElement == null ) {
     playerResultElement = document.createElement('p');
@@ -12,9 +13,6 @@ if ( playerResultElement == null && computerResultElement == null ) {
     computerResultElement = document.createElement('p');
     computerResultElement.classList.add('computer__result');
     computerResultElement.classList.add('result');
-} else {
-    playerResultElement = document.querySelector('.player__result');
-    computerResultElement = document.querySelector('.computer__result');
 }
 
 const computerElement = document.querySelector('.results .computer');
