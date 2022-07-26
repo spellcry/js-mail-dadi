@@ -1,5 +1,13 @@
 const mail = prompt('Inserisci la tua email');
-const emailValide = ['email1@test.com', 'email2@test.com', 'email3@test.com', 'email4@test.com', 'email5@test.com', 'email6@test.com', 'email7@test.com'];
+const emailValide = [
+    'email1@test.com', 
+    'email2@test.com', 
+    'email3@test.com', 
+    'email4@test.com', 
+    'email5@test.com', 
+    'email6@test.com', 
+    'email7@test.com'
+];
 let trovato = false;
 
 if ( mail != null ) {
